@@ -1,0 +1,3 @@
+rootProject.name='MavenDemo'
+include ':app'
+include ':firstlibrary'
