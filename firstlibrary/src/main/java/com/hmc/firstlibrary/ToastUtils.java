@@ -38,7 +38,7 @@ public class ToastUtils {
     /**
      * 短时间显示Toast【居中】
      * @param msg 显示的内容-字符串*/
-    public static void showShortCenterToast(Context context,String msg){
+    public static void showShortCenter(Context context,String msg){
         toast = Toast.makeText(context, "", Toast.LENGTH_SHORT);
         toast.setGravity(Gravity.CENTER, 0, 0);
         //将自定义View覆盖Toast的View
